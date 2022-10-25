@@ -1,3 +1,4 @@
+/*---------шапка---------*/
 body{
     margin: 0;
     padding: 0;
@@ -16,7 +17,7 @@ body{
     text-align: center;
     width: 140px;
     font-family: 'Raleway';
-font-style: normal;
+    font-style: normal;
     margin-top: 60px;
     line-height: 25px;
     color: #c4c2bf;
@@ -34,6 +35,8 @@ font-style: normal;
     left: 380px;
     height: 125px;
 }
+
+/*---------Конец шапки---------*/
 .img1{
   position: absolute;
   top: 125px; 
@@ -326,7 +329,8 @@ font-size: 26px;
 line-height: 31px;
 text-align: left;
 }
-.footer{
+/*------------foter--------------*/
+#footer{
   position: absolute;
   width: 1920px;
   height: 283px;
@@ -334,9 +338,78 @@ text-align: left;
   background: #2D343C;
 }
 .div{
+  width: 200px;
+  height: 180px ;
+  padding: 55px;
+}
+.menu1{
   position: absolute;
-width: 1920px;
-height: 283px;
-top: 2500px;
-background: #2D343C;
+  width: 200px;
+  top: 45px;
+  left: 800px;
+  height: 180px ;
+  display: flex;
+   
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.menu1__link {
+  margin-right: 10px;
+  padding: 10px;
+  font: 15px Arial;
+  text-decoration: none;
+  text-align:left;
+  width: 200px;
+  font-family: 'Raleway';
+font-style: normal;
+font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  border: 1px solid #2D343C;
+  background-color: #2D343C;
+}
+.menu1__link:hover {
+  color: rgb(255, 255, 255);
+  border: 1px solid #242B33;
+  background-color: #242B33;
+}
+.div2{
+  position: absolute;
+  width: 200px;
+  top: 35px;
+  left: 1400px;
+  height: 180px ;
+}
+.pt{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+.p6{
+  color:#D4C17F;
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.05em;
+}
+.imgg{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1425px;
+  top: 135px;
+}
+.imgg1{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 1490px;
+  top: 130px;
 }
